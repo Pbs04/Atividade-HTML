@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela de login</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+           background-image: url(img/bahamas.jpg);
+           background-size: cover; 
+           background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+<nav style="background-color: #00f7ff;">
+    <ul>
+        <li style="display: inline-block; position: relative; padding: 1%;"> <a href="index.html" style="text-decoration: none;">Inicio </a></li>
+        <li style="display: inline-block; position: relative; padding: 1%;"> <a href="login.html" style="text-decoration: none;">Login</a></li>
+        <li style="display: inline-block; position: relative; padding: 1%;"> <a href="cadusuario.html" style="text-decoration: none;">Cadastro</a></li>
+    </ul>
+    <hr>
+</nav>
+
+<div>
+<div style="background: linear-gradient(#ffffff, #00f7ff, #000000);; text-align: center; width: 22%; margin: auto; border-radius: 20px;border: 3px solid black; box-shadow: 5px 4px 4px black; padding: 4%; height: 500px; margin-top: 5%;">
+<h1> Recuperar senha </h1>
+<br>
+<p>Coloque o seu email cadastrado</p>
+<br>
+    <form>
+    <label for="email"> Email:</label>
+    <input type="text" value="" id="email" name="email" style="padding: 1%; ">
+
+<br> <br>
+
+<div>
+<input type="submit" value="Enviar" id="Entrar" name="Entrar" style="padding: 2%; border: none;margin: 2%; font-size: 100%;">
+<input type="reset" value="Limpar" id="Limpar" name="Limpar" style="padding: 2%; border: none;margin: 2%; font-size: 100%;">
+</div>
+<br>
+<p>Será enviado um email para refazer sua senha</p>
+</form>
+</div>
+</div>
+</body>
+</html>

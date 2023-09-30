@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela de login</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+           background-image: url(img/bahamas.jpg);
+           background-size: cover; 
+           background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+<nav style="background-color: #00f7ff;">
+    <ul>
+        <li style="display: inline-block; position: relative; padding: 1%;"> <a href="index.html" style="text-decoration: none;">Inicio </a></li>
+        <li style="display: inline-block; position: relative; padding: 1%;"> <a href="login.html" style="text-decoration: none;">Login</a></li>
+        <li style="display: inline-block; position: relative; padding: 1%;"> <a href="cadusuario.html" style="text-decoration: none;">Cadastro</a></li>
+    </ul>
+    <hr>
+</nav>
+
+<div>
+<div style="background: linear-gradient(#ffffff, #00f7ff, #000000);; text-align: center; width: 22%; margin: auto; border-radius: 20px;border: 3px solid black; box-shadow: 5px 4px 4px black; padding: 4%; height: 500px; margin-top: 5%;">
+<h1> Login </h1>
+<br>
+    <form>
+
+    <label for="nome"> Nome:</label>
+    <input type="text" value="" id="nome" name="nome" style="padding: 1%; ">
+
+<br> <br>
+
+    <label for="senha"> Senha:</label>
+    <input type="text" value="" id="senha" name="senha" style="padding: 1%;">
+
+<br> <br>
+
+
+<div style="padding: 2%;">
+<input type="checkbox" id="lembreusuario" name="lembreusuario" value="lembreusuario" >
+<label for="lembreusuario" > Remember-me</label>
+<a href="recsenha.html" style="text-decoration: none;">Esqueceu a senha?</a>
+</div>
+<br>
+<div>
+<input type="submit" value="Entrar" id="Entrar" name="Entrar" style="padding: 2%; border: none;margin: 2%; font-size: 100%;">
+<input type="reset" value="Limpar" id="Limpar" name="Limpar" style="padding: 2%; border: none;margin: 2%; font-size: 100%;">
+</div>
+<br> <br> <br>
+<div>Ainda não tem uma conta? <a href="cadusuario.html" style="text-decoration: none;">Cadastre-se</a></div>
+</form>
+</div>
+</div>
+</body>
+</html>

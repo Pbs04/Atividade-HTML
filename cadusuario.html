@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela de Cadastro</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+           background-image: url(img/bahamas.jpg);
+           background-size: cover; 
+           background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+<nav style="background-color: #00f7ff;">
+    <ul>
+        <li style="display: inline-block; position: relative; padding: 1%;"> <a href="index.html" style="text-decoration: none;">Inicio </a></li>
+        <li style="display: inline-block; position: relative; padding: 1%;"> <a href="login.html" style="text-decoration: none;">Login</a></li>
+        <li style="display: inline-block; position: relative; padding: 1%;"> <a href="cadusuario.html" style="text-decoration: none;">Cadastro</a></li>
+    </ul>
+    <hr>
+</nav>
+
+<div>
+<div style="background: linear-gradient(#ffffff, #00f7ff, #000000);; text-align: center; width: 22%; margin: auto; border-radius: 20px;border: 3px solid black; box-shadow: 5px 4px 4px black; padding: 4%; height: 600px; margin-top: 5%;">
+<h1> Cadastre-se </h1>
+<br>
+    <form>
+
+    <label for="nome"> Nome:</label>
+    <input type="text" value="" id="nome" name="nome" style="padding: 1%; ">
+
+    <br> <br>
+
+    <label for="email"> Email:</label>
+    <input type="text" value="" id="email" name="email" style="padding: 1%; ">
+
+    <br> <br>
+
+    <label for="data"> Data:</label>
+    <input type="date" value="" id="data" name="data" style="padding: 1%;">
+
+    <br> <br>
+
+    <label for="senha"> Senha:</label>
+    <input type="text" value="" id="senha" name="senha" style="padding: 1%;">
+
+    <br> <br>
+Prefere praia ou piscina? <br>
+    <input type="radio" id="praia" name="praia" value="praia">
+    <label for="praia">Praia</label>
+
+    <input type="radio" id="piscina" name="piscina" value="piscina">
+    <label for="piscina">Piscina</label>
+<br> <br>
+    <Label for="estado">Qual o seu Estado?</Label>
+        <select id="estado" name="estado" style="padding: 1%;">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ" selected>Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option>
+        </select>
+
+    <br> <br>
+
+    <div>
+
+    <input type="submit" value="Entrar" id="Entrar" name="Entrar" style="padding: 2%; border: none;margin: 2%; font-size: 100%;">
+    <input type="reset" value="Limpar" id="Limpar" name="Limpar" style="padding: 2%; border: none;margin: 2%; font-size: 100%;">
+
+    </div>
+
+    <br>
+    <div>Ja tem uma conta? <a href="login.html" style="text-decoration: none;">Login</a></div>
+</form>
+</div>
+</div>
+</body>
+</html>
